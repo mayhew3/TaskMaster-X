@@ -49,7 +49,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <CodesignKey>iPhone Developer: Mayhew Seavey (PS5BQK22PN)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>iOS Team Provisioning Profile: com.mayhew3.Phoneword</CodesignProvision>
+    <CodesignProvision>iOS Team Provisioning Profile: com.mayhew3.TaskMaster</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
