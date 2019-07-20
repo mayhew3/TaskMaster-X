@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using Auth0.OidcClient;
 
 namespace TaskMaster
 {
@@ -25,6 +26,12 @@ namespace TaskMaster
 
             TodoItemManager = new TodoItemManager(new RestService());
 
+            return true;
+        }
+
+        public override bool OpenUrl(UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)
+        {
+            ActivityMediator.Instance.Send(url.AbsoluteString);
             return true;
         }
 
