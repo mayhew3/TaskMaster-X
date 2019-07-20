@@ -14,8 +14,16 @@ namespace TaskMaster
     [Register ("TaskListViewController")]
     partial class TaskListViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIBarButtonItem LoginButton { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (LoginButton != null) {
+                LoginButton.Dispose ();
+                LoginButton = null;
+            }
         }
     }
 }

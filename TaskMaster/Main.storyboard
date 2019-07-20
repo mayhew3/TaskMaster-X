@@ -36,7 +36,12 @@
                             <outlet property="delegate" destination="673" id="676"/>
                         </connections>
                     </tableView>
-                    <navigationItem title="TaskMaster" id="1156" key="navigationItem"/>
+                    <navigationItem title="TaskMaster" id="1156" key="navigationItem">
+                        <barButtonItem key="rightBarButtonItem" title="Login" id="1362"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="LoginButton" destination="1362" id="name-outlet-1362"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="679" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
