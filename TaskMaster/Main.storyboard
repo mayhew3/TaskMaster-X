@@ -35,12 +35,20 @@
                             <outlet property="dataSource" destination="673" id="675"/>
                             <outlet property="delegate" destination="673" id="676"/>
                         </connections>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1659" key="tableFooterView">
+                            <rect key="frame" x="0.0" y="116" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Login"/>
+                        </button>
                     </tableView>
-                    <navigationItem title="TaskMaster" id="1156" key="navigationItem"/>
+                    <navigationItem title="TaskMaster" id="1246" key="navigationItem"/>
+                    <connections>
+                        <outlet property="LoginButton" destination="1659" id="name-outlet-1659"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="679" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-970" y="-300"/>
+            <point key="canvasLocation" x="-422" y="28"/>
         </scene>
         <scene sceneID="920">
             <objects>
@@ -50,12 +58,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue id="1157" destination="673" kind="relationship" relationship="rootViewController"/>
+                        <segue id="1247" destination="673" kind="relationship" relationship="rootViewController"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="924" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1571" y="-300"/>
+            <point key="canvasLocation" x="-1017" y="42"/>
         </scene>
     </scenes>
 </document>
